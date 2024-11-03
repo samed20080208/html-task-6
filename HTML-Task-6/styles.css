@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Heebo";
+    src: url(./assets/fonts/Heebo-VariableFont_wght.ttf);
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.use-font-roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.use-font-roboto-slab {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin-left: 121px;
+    color: #000000;
+}
+
+header .header-logo-image {
+    margin-top: 21px;
+}
+
+.course-info .course-info-container .date-info div span {
+    display: inline-block;
+
+    width: 130px;
+    height: 32px;
+
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.course-info .course-info-container .date-info {
+    display: flex;
+}
+
+.course-info .course-info-container .date-info .date-info-second-data {
+    margin-left: 25px;
+}
+
+.course-info {
+    margin-top: 97px;
+}
+
+.how-to-watch-info {
+    display: flex;
+    margin-top: 29px;
+}
+
+.how-to-watch-info .how-to-watch-text h1 {
+    width: 628px;
+    height: 190px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 81.11px;
+    text-align: left;
+}
+
+.how-to-watch-info .how-to-watch-text p {
+    width: 414px;
+    height: 62px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.how-to-watch-info .how-to-watch-images-img1 {
+    position: relative;
+    margin-left: 140px;
+    margin-top: 4px;
+    z-index: 2;
+}
+
+.how-to-watch-info .how-to-watch-images-img2 {
+    position: absolute;
+    z-index: 1;
+    top: 592px;
+    left: 921px;
+}
+
+.course-info .course-info-container .author-quote img {
+    margin-top: 67.6px;
+    margin-left: 287.4px;
+    border-radius: 5px;
+}
+
+.about-course {
+    margin-top: 173.4px;
+}
+
+.about-course .about-course-head h1 {
+    width: 365px;
+    height: 93px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.8px;
+    text-align: left;
+}
+
+.about-course .about-course-main {
+    display: flex;
+    gap: 190px;
+    margin-top: 18px;
+}
+
+.about-course .about-course-main p {
+    width: 662px;
+    height: 374px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+.about-course .about-course-main .about-course-main-img1 {
+    position: relative;
+    margin-top: 24px;
+    z-index: 2;
+}
+
+.about-course .about-course-main .about-course-main-img2 {
+    position: absolute;
+    z-index: 1;
+    top: 1482px;
+    left: 947px;
+}
+
+.about-course .about-course-duration-info {
+    display: flex;
+    margin-top: 94px;
+}
+
+.about-course .about-course-duration-info .about-course-duration-info-data {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 132px;
+    gap: 94px;
+}
+
+.about-course .about-course-duration-info .about-course-duration-info-data div h3 {
+    width: 150px;
+    height: 39px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+}
+
+.about-course .about-course-duration-info .about-course-duration-info-data div p {
+    width: 150px;
+    height: 39px;
+    font-size: 18px;
+    line-height: 23.4px;
+    text-align: left;
+}
+
+.about-course .about-course-duration-info .about-course-duration-info-img1 {
+    position: relative;
+    z-index: 2;
+}
+
+.about-course .about-course-duration-info .about-course-duration-info-img2 {
+    position: absolute;
+    z-index: 1;
+    top: 1832px;
+    left: 154px;
+}
+
+.course-class-format {
+    margin-top: 162px;
+}
+
+.course-class-format .course-class-format-head h1 {
+    width: 667px;
+    height: 93px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.8px;
+    text-align: left;
+}
+
+.course-class-format .course-class-format-main {
+    display: flex;
+    margin-top: 89px;
+}
+
+.course-class-format .course-class-format-main h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: left;
+    color: #1E4681;
+}
+
+.course-class-format .course-class-format-main p {
+    font-size: 18px;
+    line-height: 23.4px;
+    text-align: left;
+    margin-top: 2px;
+}
+
+.course-class-format .course-class-format-main .ccfm-first {
+    width: 223px;
+}
+
+.course-class-format .course-class-format-main .ccfm-second {
+    margin-left: 122px;
+    width: 271px;
+}
+
+.course-class-format .course-class-format-main .ccfm-third {
+    margin-left: 113px;
+    width: 245px;
+}
+
+.what-we-learn {
+    margin-top: 249px;
+}
+
+.what-we-learn div .what-we-learn-head {
+    width: 667px;
+    height: 93px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 55.8px;
+    text-align: left;
+}
+
+.what-we-learn div .what-we-learn-main {
+    list-style: disc;
+    margin-top: 21px;
+    width: 662px;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+}
+
+
+/* Additional */
+
+.end-of-page {
+    border-bottom: 3px solid black;
+    margin-top: 200px;
+}
